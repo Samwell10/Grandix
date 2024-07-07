@@ -1,0 +1,105 @@
+.footer{
+    background:rgb(28, 28, 28);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-body-left{
+    width: 30%;
+}
+.footer-body-left img{
+    width: 20%;
+}
+.what-we-do{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    margin-top: 22px;
+}
+.location, .lettalk{
+    margin-top: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #ffffffb0;
+}
+.footer-body-right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.company{
+    text-align: left;
+}
+.footer-head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3125rem;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
+.footer-body-2{ 
+    margin-top: 6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #ffffffaf;
+}
+.credio-footer{
+    margin-top: 82px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.63);
+}
+@media (max-width:900px) {
+    .footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .footer-body-left img{
+        width: 10%;
+    }
+    .footer-body{
+        display: block;
+    }
+    .footer-body-right, .footer-body-left{
+        width: 100%;
+    }
+    .footer-body-right{
+        margin-top: 50px;
+    }
+}
+@media (max-width:500px){
+    .what-we-do{
+        font-size: 1rem;
+    }
+    .location, .lettalk{
+        font-size: 0.675rem;
+    }
+    .footer-head{
+        font-size: 1.1125rem;
+    }
+    .footer-body-2{ 
+        font-size: 0.575rem;
+    }
+    .credio-footer{
+        margin-top: 82px;
+        font-size: 0.875rem;
+    }
+}

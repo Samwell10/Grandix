@@ -1,0 +1,123 @@
+.about{
+    padding: 4rem 6rem; 
+}
+.about-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+}
+.about-left{
+    width: 45%;
+}
+.about-right{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+.about-title{
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+.about-header{
+    margin-top: 20px;
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 3rem;
+}
+.about-content{
+    margin-top: 20px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #7B7B7B;
+    line-height: 25px;
+    text-align: justify;
+}
+.about-right img{
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about-image-2{
+    width: 100% !important;
+    height:300px !important;
+}
+.number{
+    width: 50px;
+    padding: 0.5rem 1rem;
+    background-color: #00A3FF;
+    border-radius: 10px;
+}
+.number-red{
+    background-color: #FF3333;
+}
+.number-black{
+    background-color: #1f1f1f;
+}
+.number p{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 0.625rem;
+    color: white;
+}
+.stat-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stat h4{
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 3rem;
+}
+.stat-title{
+    text-align: right;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+@media (max-width: 800px) {
+    .about{
+        padding: 4rem 2rem; 
+    }
+    .about-inner{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .about-inner-2{
+        flex-direction: column-reverse;
+    }
+    .about-header{
+        font-size: 2.5rem;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-left-2{
+        margin-top: 80px;
+    }
+    .about-right{
+        width: 100%;
+    }
+    .about-right img{
+        height: 300px;
+    }
+    .about-content{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .about-image-2{
+        width: 100% !important;
+        height:150px !important;
+    }
+    .number p{
+        font-size: 0.85rem;
+    }
+    .stat h4{
+        font-size: 2rem;
+    }
+}

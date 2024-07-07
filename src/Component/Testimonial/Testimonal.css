@@ -1,0 +1,77 @@
+.testimonial{
+    background-color: #E5E5E5;
+    padding: 8rem 10rem;  
+}
+.testimonial-topic{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+.testimonial-topic span{
+    color: red;
+}
+.team-head{
+    margin-bottom: 20px;
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+.team-body{
+    text-align: center;
+    color: #7B7B7B;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.teams{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:80px;
+    overflow-x: scroll;
+}
+.teams::-webkit-scrollbar {
+    width: 0px;
+    display: none;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-image{
+    width: 200px;
+    height: 200px;
+    background-color: #2A2A2A;
+    border-radius: 50%;
+}
+.team-member-name{
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.team-member-position{
+    padding-top: 15px;
+    color: #7B7B7B;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+@media (max-width: 800px) {
+    .testimonial{
+        background-color: #E5E5E5;
+        padding: 8rem 2rem;  
+    }
+    .team-head{
+        font-size: 2.5rem;
+    }
+    .team-body{
+        font-size: 0.9rem;
+    }
+}
