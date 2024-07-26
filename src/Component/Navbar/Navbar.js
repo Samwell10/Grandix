@@ -24,7 +24,9 @@ const Navbar = () => {
     return ( 
         <div className="navbar">
             <div className="navbar-left">
-                <img src={logo}></img>
+                <a href="/" >
+                    <img src={logo}></img>
+                </a>
                 {/* <h2>Grandix<span>.</span></h2> */}
             </div>
             <div className="navbar-right">
@@ -46,10 +48,10 @@ const Navbar = () => {
                 </div>
                 <nav>
                     <ul>
-                    <li onClick={() => scrollToSection("home")}>Home</li>
-            <li onClick={() => scrollToSection("about")}>About Us</li>
-            <li onClick={() => scrollToSection("services")}>Services</li>
-            <li onClick={() => scrollToSection("contact")}>Contact</li>
+                    <li onClick={() => {scrollToSection("home"); handleSide()}}>Home</li>
+            <li onClick={() => {scrollToSection("about"); handleSide()}}>About Us</li>
+            <li onClick={() => {scrollToSection("services"); handleSide()}}>Services</li>
+            <li onClick={() => {scrollToSection("contact"); handleSide()}}>Contact</li>
                     </ul>
                 </nav>
             </div>

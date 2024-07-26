@@ -1,8 +1,19 @@
-import { Link } from 'react-router-dom';
 import './Footer.css';
+import { HashLink as Link } from 'react-router-hash-link';
+import { useLocation } from 'react-router-dom';
 import { motion } from "framer-motion";
 import logo from "../../Assets/logonew.png"
 const Footer = () => {
+    const location = useLocation();
+    const scrollToSection = (section) => {
+        if (location.pathname === "/") {
+          // Scroll to section on the home page
+          document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+        } else {
+          // Redirect to home page and scroll to section
+          window.location.href = `/#${section}`;
+        }// Close the mobile menu
+      };
     return ( 
         <section className="footer">
             <div className="footer-body">
@@ -28,9 +39,9 @@ const Footer = () => {
                         className="company"
                     >
                         <h4 className="footer-head">Company</h4>
-                        <a href='#about'><p className="footer-body-2">About Us</p></a>
-                        <a href='#contact'><p className="footer-body-2">Contact Us</p></a>
-                        <a href="" target="_blank"><p className="footer-body-2">Services</p></a>
+                        <a href='#about'><p className="footer-body-2"  onClick={() => scrollToSection("about")}>About Us</p></a>
+                        <a href='#contact'><p className="footer-body-2" onClick={() => scrollToSection("contact")}>Contact Us</p></a>
+                        <a href="" target="_blank"><p className="footer-body-2" onClick={() => scrollToSection("services")}>Services</p></a>
                     </motion.div>
                     <motion.div 
                         initial={{ x: -50, opacity: 0 }}
@@ -39,9 +50,9 @@ const Footer = () => {
                         className="company"
                     >
                         <h4 className="footer-head">Socials</h4>
-                        <a href='https://www.facebook.com/thegeniuscentre?mibextid=ZbWKwL' target="_blank"><p className="footer-body-2">Facebook</p></a>
-                        <a href='https://www.linkedin.com/company/crediometer/' target="_blank"><p className="footer-body-2">LinkedIn</p></a>
-                        <a href='https://instagram.com/crediometer?igshid=YmMyMTA2M2Y=' target="_blank"><p className="footer-body-2">Instagram </p></a>
+                        <a href='' target="_blank"><p className="footer-body-2">Facebook</p></a>
+                        <a href='' target="_blank"><p className="footer-body-2">LinkedIn</p></a>
+                        <a href='' target="_blank"><p className="footer-body-2">Instagram </p></a>
                     </motion.div>
                 </div>
             </div>

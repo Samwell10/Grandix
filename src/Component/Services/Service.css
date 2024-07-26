@@ -96,7 +96,8 @@
     font-family: "Rubik";
     font-weight: 400;
     font-size: 1rem;
-    color: #edecec;
+    color: #F2F2F2;
+    line-height: 30px;
     text-align: justify;
 }
 .learn-more{
@@ -127,5 +128,8 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 40px;
+    }
+    .learn-more{
+        width: 40%;
     }
 }

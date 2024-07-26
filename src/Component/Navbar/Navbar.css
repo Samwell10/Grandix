@@ -46,6 +46,9 @@
     .navbar{
         padding: 1.2rem 2rem;
     }
+    .navbar-left img{
+        width: 20%;
+    }
     .navbar-left h2{
         font-size: 1.5rem;
         font-family: "Manrope";
