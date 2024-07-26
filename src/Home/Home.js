@@ -24,6 +24,10 @@ const Home = () => {
                 content="UK security service providers for private clients and Businesses"
             />
             <Contact/>
+            <Testimonial 
+                title="PROTECTION OF VACANT PROPERTY"
+                content="Security For When Your Home Or Work Property Is Vacant"
+            />
         </div>
     );
 }
