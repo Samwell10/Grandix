@@ -53,7 +53,7 @@
     font-size: 2rem;
 }
 .contact-head span{
-    color: rgb(240, 22, 22);
+    color: #2A398C;
 }
 .contact-body{
     font-family: "Rubik";
@@ -64,7 +64,7 @@
     width: 100%;
     padding: 0.5rem;
     border: none;
-    background-color: rgb(240, 22, 22);
+    background-color: #2A398C;
     color: white;
     font-size: 0.6rem;
     font-weight: 700;
@@ -90,7 +90,7 @@
 .contact-details p{
     font-size: 0.4rem;
     font-weight: 600;
-    color: #DD5471;
+    color: #2A398C;
 }
 .map{
     margin-top: 24px;
@@ -161,7 +161,7 @@
         font-size: 3rem;
     }
     .contact-head span{
-        color: rgb(255, 85, 85);
+        color: #2A398C;
     }
     .contact-body{
         font-size: 0.9rem;

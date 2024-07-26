@@ -1,45 +1,31 @@
 import "./Testimonal.css"
-const Testimonial = () => {
+import { motion } from "framer-motion";
+const Testimonial = ({title, content}) => {
     return ( 
         <div className="testimonial about">
-            <p className="testimonial-topic">Grandix<span>.</span></p>
-            <h4 className="team-head">Our Professional Team</h4>
-            <p className="team-body">At Grandix, our team is our greatest strength. Each security professional brings dedication, expertise, and a commitment to safety. Get to know the skilled individuals who safeguard our clients every day.</p>
-            <div className="teams">
-                <div className="team">
-                    <div className="team-image">
-
-                    </div>
-                    <p className="team-member-name">
-                        John Smith
-                    </p>
-                    <p className="team-member-position">
-                        Chief Security Officer
-                    </p>
-                </div>
-                <div className="team">
-                    <div className="team-image">
-
-                    </div>
-                    <p className="team-member-name">
-                        John Smith
-                    </p>
-                    <p className="team-member-position">
-                        Chief Security Officer
-                    </p>
-                </div>
-                <div className="team">
-                    <div className="team-image">
-
-                    </div>
-                    <p className="team-member-name">
-                        John Smith
-                    </p>
-                    <p className="team-member-position">
-                        Chief Security Officer
-                    </p>
-                </div>
-            </div>
+            <motion.p 
+                initial={{ opacity: 0 }}
+                whileInView={{opacity: 1 }}
+                transition={{ type: "spring", duration: 1, delay: 0.5 }}
+                className="testimonial-topic"
+            >Grandix<span>.</span>
+            </motion.p>
+            <motion.h4 
+                initial={{ x: -50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", duration: 1, delay: 0.8 }} 
+                className="team-head"
+            >
+               {title}
+            </motion.h4>
+            <motion.p 
+                initial={{ x: -50, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                transition={{ type: "spring", duration: 1, delay: 1 }} 
+                className="team-body"
+            >
+                {content}
+            </motion.p>
         </div>
     );
 }

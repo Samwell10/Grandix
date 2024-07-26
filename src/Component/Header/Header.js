@@ -46,11 +46,11 @@ const Header = () => {
                     Contact Us
                 </motion.button>
             </div>
-            <div className="header-right">
+            {/* <div className="header-right">
                 <div className="header-image">
                     <img src={backgronnd} alt="hero-image"></img>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

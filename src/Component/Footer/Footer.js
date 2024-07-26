@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
 import { motion } from "framer-motion";
+import logo from "../../Assets/logonew.png"
 const Footer = () => {
     return ( 
         <section className="footer">
@@ -12,11 +13,12 @@ const Footer = () => {
                     className="footer-body-left"
                 >
                     <div className="navbar-left">
-                        <h2>Grandix<span>.</span></h2>
+                        <img src={logo}></img>
                     </div>
                     <p className="what-we-do">Explore our premier <span>security</span> solutions</p>
-                    <p className="location">220 Oyemekun road, beside Michelin Tyres Services, Airways Akure.</p>
-                    <p className="lettalk">Let’s Talk:  0805 588 7077</p>
+                    <p className="location">85 Great Portland Street, First Floor, London, W1W 7LT</p>
+                    <p className="lettalk">Tel:  +44 (0)207 101 4819</p>
+                    <p className="lettalk">Mobile: +44 755 3313 718</p>
                 </motion.div>
                 <div className="footer-body-right">
                     <motion.div 

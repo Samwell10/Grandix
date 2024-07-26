@@ -1,0 +1,24 @@
+.service-header-text{
+    text-align: center;
+}.service-page-body{
+    padding: 1.5rem 9rem;
+}
+.service-page-body nav{
+    margin-top: 20px;
+}
+.service-page-body nav ul{
+    padding-left: 1rem;
+}
+.service-page-body nav ul li{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 1rem;
+    font-style: italic;
+    color: #7B7B7B;
+    line-height: 25px;
+    text-align: justify;
+}
+.about-sub-title{
+    font-size: 1rem;
+    font-style: italic;
+}

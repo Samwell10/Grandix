@@ -29,8 +29,16 @@ const About = () => {
                         transition={{ type: "spring", duration: 1, delay: 0.8 }}
                         className="about-content"
                     >
-                        With office in Greater London. Grandix Security Personnel is a reputable security firm in the UK. Our team members have a variety of abilities, including expertise in close protection security and construction site security, among other specialties. Whether it is manned,everyone of our workers is an expert in their own field. We have years of experience protecting client assets and corporate assets, ensuring we employ our broad skill set in every situation. We cordially invite you to get to know the Grandix Security Personnel team, who are on call 24/7 to see to your specific security requirements.
-                    </motion.p>
+                        With office in Greater London. Grandix Security Personnel is a reputable security firm in the UK. Our team members have a variety of abilities, including expertise in close protection security and construction site security, among other specialties. Whether it is manned,everyone of our workers is an expert in their own field. We have years of experience protecting client assets and corporate assets, ensuring we employ our broad skill set in every situation. 
+                     </motion.p>
+                     <motion.p 
+                        initial={{ y: -50, opacity: 0 }}
+                        whileInView={{ y: 0, opacity: 1 }}
+                        transition={{ type: "spring", duration: 1, delay: 0.8 }}
+                        className="about-content"
+                    >
+                        We cordially invite you to get to know the Grandix Security Personnel team, who are on call 24/7 to see to your specific security requirements
+                     </motion.p>
                 </div>
                 <div className="about-right">
                     <img src={aboutimage}></img>

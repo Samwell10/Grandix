@@ -57,21 +57,21 @@ const Contact = () => {
                             <div className="contact-icon">
                                 <FiPhoneCall/>
                             </div>
-                            <a href={`tel: 08055889999`}>
+                            <a href={`tel:  +44(0)2071014819`}>
                                 <div className="contact-details">
-                                    <h4>PHONE</h4>
-                                    <p>08055889999</p>
+                                    <h4>Tel</h4>
+                                    <p>+44 (0)207 101 4819</p>
                                 </div>
                             </a>
                         </div>
                         <div className="contact-method">
                             <div className="contact-icon">
-                                <IoIosGlobe />
+                                <FiPhoneCall/>
                             </div>
-                            <a href="https://crediometer.com/" target="_blank">
+                            <a href={`tel:  +44(0)2071014819`}>
                                 <div className="contact-details">
-                                    <h4>Website</h4>
-                                    <p>grandixlimited.com</p>
+                                    <h4>Mobile</h4>
+                                    <p>+44 755 3313 718</p>
                                 </div>
                             </a>
                         </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3957.8210596459444!2d5.171436975081708!3d7.261195692745609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s220%20Oyemekun%20road%2C%20beside%20Michelin%20Tyres%20Services%2C%20Airways%20Akure.!5e0!3m2!1sen!2sng!4v1715555064859!5m2!1sen!2sng" frameborder="0" className="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.711716577138!2d-0.14708490966870136!3d51.51850469914525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb65eafa50b41%3A0x5cc18d8ac0207ee0!2sVideoFirst!5e0!3m2!1sen!2sng!4v1721948887190!5m2!1sen!2sng" frameborder="0" className="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 </div>
             <div className="contact-right">

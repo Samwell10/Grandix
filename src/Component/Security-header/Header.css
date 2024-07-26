@@ -1,0 +1,32 @@
+.security-header{
+    padding-top: 3rem !important;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url("../../Assets/portrait.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.security-header::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: rgba(33, 33, 33, 0.559);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.security-header h3{
+    position: relative;
+    z-index: 3;
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #edecec;
+}
